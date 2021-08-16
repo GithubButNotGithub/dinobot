@@ -10,10 +10,9 @@ class SelfRoles(commands.Cog):
         self.bot = bot
         owner = 141695444995670017  # dino
         rbnr = 231614904035966984  # regs but not regs
-        selfrolelist = ['Perverts', 'Dragons and Dungeons', 'Politician', 'TF Mercs', 'Overwatch Agent', 'Heisters',
-                        "Garry's Mothers", 'Miners', 'Killer of Floors', 'Counter Strike', 'Super Smash Bro',
-                        'Town of Salem', 'Team Rainbow', 'Tenno Skoom', 'Inklings', 'Paladins', 'Four Honour', 'Lethal League',
-                        'Apex Predator', 'Cloudy With A Chance Of Rain Too', 'League of Tilt']
+        selfrolelist = ['Perverts', 'Dragons and Dungeons', 'Politician', 'TF Mercs', 'Overwatch Agent',
+                        'Killer of Floors', 'Cloudy With A Chance Of Rain Too', 'League of Tilt', 'Alive By NightLight',
+                        'Loop Victims']
 
     def check_if_rbnr(ctx):
         return ctx.guild.id == rbnr
