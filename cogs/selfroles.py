@@ -12,7 +12,7 @@ class SelfRoles(commands.Cog):
         rbnr = 231614904035966984  # regs but not regs
         selfrolelist = ['Perverts', 'Dragons and Dungeons', 'Politician', 'TF Mercs', 'Overwatch Agent',
                         'Killer of Floors', 'Cloudy With A Chance Of Rain Too', 'League of Tilt', 'Alive By NightLight',
-                        'Loop Victims']
+                        'loop victims']
 
     def check_if_rbnr(ctx):
         return ctx.guild.id == rbnr
