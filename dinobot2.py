@@ -8,7 +8,10 @@ import random
 
 # time to do this bot again, better this time
 
-bot = commands.Bot(command_prefix='!')
+# Opt-in to all intents configured on the developer portal
+intents = discord.Intents.default().all()
+
+bot = commands.Bot(command_prefix='!', intents = intents)
 
 # good variables
 owner = 228667580330672128  # straw
